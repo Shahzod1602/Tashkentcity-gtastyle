@@ -1,34 +1,48 @@
 # Tashkent City — Windows test o‘yini
 
-Tashkent City, AUT universiteti, park va Humo Arena atrofida haydash va erkin yurish uchun **alpha test versiyasi**. Uzbek, English va Russian tillari mavjud. Bu repository tayyor o‘yin paketini va tester yo‘riqnomasini tarqatadi.
+Tashkent City, AUT universiteti, park va Humo Arena atrofida haydash va erkin yurish uchun **alpha test versiyasi**. O‘zbekcha, English va Russian tillari mavjud.
 
-**[O‘yinni yuklash — alpha-20261003-aut1](https://github.com/Shahzod1602/Tashkentcity_-gtastyle/releases/tag/alpha-20261003-aut1)**
+## O‘yinni yuklash
 
-## Yuklash va ochish
+### [⬇ Install.TashkentCity.exe — o‘rnatuvchini yuklash](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/download/alpha-20261003-aut1/Install.TashkentCity.exe)
 
-1. Release sahifasidan quyidagi **5 faylni bitta papkaga** yuklang:
+1. Yuqoridagi **bitta faylni** yuklab, oching.
+2. O‘yin uchun papka tanlang va **O‘rnatish** tugmasini bosing.
+3. Tugagach **O‘yinni ochish** tugmasini bosing. Ish stolida ham yorliq yaratiladi, agar belgisini olib tashlamasangiz.
+
+![Tashkent City o‘rnatuvchisi](images/installer.png)
+
+O‘rnatuvchi **32 KB**; u **3,34 GB** o‘yin paketini yuklaydi, fayllarni tekshiradi va avtomatik chiqaradi. Internet uzilsa, o‘rnatuvchini o‘sha papka bilan yana ochib davom ettiring. Papka tanlovi eslab qolinadi. Muvaffaqiyatli o‘rnatishdan keyin yuklash arxivlari avtomatik tozalanadi.
+
+**Windows 64-bit**, internet va o‘rnatish davomida kamida **11 GB bo‘sh joy** kerak. O‘yin o‘rnatilgach taxminan **3,7 GB** joy egallaydi. GitHub hisobi, Unreal Editor va 7-Zip talab qilinmaydi. Bu alpha o‘rnatuvchi raqamli imzo bilan imzolanmagan; Windows ogohlantirish ko‘rsatishi mumkin.
+
+O‘yin ochilmasa va `VCRUNTIME` yoki `MSVCP` yetishmasa, **O‘yin papkasi** orqali paketdagi `Install Runtime.cmd` ni oching. O‘yinda til va grafikani tanlang: **O‘ynash → Erkin yurish → mashina tanlash → boshlash**.
+
+<details>
+<summary>Muqobil usul: ZIP qismlarini qo‘lda yuklash</summary>
+
+1. [Release sahifasidan](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/tag/alpha-20261003-aut1) quyidagi **5 faylni bitta papkaga** yuklang:
    - `TashkentCity-alpha-20261003-aut1.zip.001`
    - `TashkentCity-alpha-20261003-aut1.zip.002`
    - `Join.Test.ZIP.cmd`
    - `Join-Test-ZIP.ps1`
    - `TEST_PARTS.json`
-2. `Join.Test.ZIP.cmd` ni oching. U qismlarning SHA-256 qiymatlarini tekshiradi va ZIP faylini yig‘adi.
-3. Hosil bo‘lgan ZIP ichidagi barcha fayllarni chiqaring.
-4. `Play Tashkent City.cmd` ni oching. Unreal Editor kerak emas.
-5. `VCRUNTIME` yoki `MSVCP` yetishmasa, paketdagi `Install Runtime.cmd` ni ishga tushiring.
-6. Til va grafikani tanlang: **O‘ynash → Erkin yurish → mashina tanlash → boshlash**.
+2. `Join.Test.ZIP.cmd` ni oching. U qismlarni tekshiradi va ZIP faylini yig‘adi.
+3. ZIP ichidagi barcha fayllarni chiqaring va `Play Tashkent City.cmd` ni oching.
 
-Windows x64 kerak. Yuklash, ZIP yig‘ish va chiqarish uchun kamida **11 GB bo‘sh joy** ajrating. GitHub’ning avtomatik `Source code (zip/tar.gz)` fayllari o‘yin paketi emas.
+GitHub’ning avtomatik `Source code (zip/tar.gz)` fayllari o‘yin paketi emas. Qo‘lda yuklangan arxivlarni o‘zingiz tozalashingiz mumkin.
+
+</details>
 
 ## Tester uchun
 
 Avval **Muvozanatli / Balanced** grafikada sinang. 20–30 daqiqa davomida kunduz va tunda shahar, mashinaga kirish/chiqish, tormoz, faralar, svetoforlar, piyodalar, poyga va saqlab qayta ochishni tekshiring.
 
-Muammo topsangiz [Issues](https://github.com/Shahzod1602/Tashkentcity_-gtastyle/issues) bo‘limida PC tarkibi, grafik sozlamalari, FPS, takrorlash qadamlari va rasm yoki qisqa videoni yuboring. `FEEDBACK_TEMPLATE.txt` paket ichida bor. Hech qanday fikr yoki log avtomatik yuborilmaydi.
+Muammo topsangiz [Issues](https://github.com/Shahzod1602/Tashkentcity-gtastyle/issues) bo‘limida PC tarkibi, grafik sozlamalari, FPS, takrorlash qadamlari va rasm yoki qisqa videoni yuboring. `FEEDBACK_TEMPLATE.txt` paket ichida bor. Hech qanday fikr yoki log avtomatik yuborilmaydi.
 
 Boshqaruv: **WASD** harakat/haydash; **E** interaksiya/mashinaga kirish; **Space** sakrash/qo‘l tormozi; **C** kamera; **M** xarita; **G** garaj; **B** radio; **N** keyingi trek; **L** faralar; **Esc** pauza. Tugmalarni Sozlamalar → Boshqaruv’dan o‘zgartirish mumkin.
 
-Progress, sozlamalar va loglar `%LOCALAPPDATA%\TashkentCityTest` ostida saqlanadi.
+Progress, sozlamalar va loglar `%LOCALAPPDATA%\TashkentCityTest` ostida saqlanadi. Repository’da Unreal loyihasining manba kodi joylanmagan.
 
 ## Joriy cheklovlar
 
@@ -39,6 +53,8 @@ Progress, sozlamalar va loglar `%LOCALAPPDATA%\TashkentCityTest` ostida saqlanad
 
 ## English quick start
 
-Download both numbered ZIP parts, `Join.Test.ZIP.cmd`, `Join-Test-ZIP.ps1` and `TEST_PARTS.json` from the Release into one folder. Run the joiner, extract the verified ZIP, then launch `Play Tashkent City.cmd`. Windows x64 and 11 GB free space are needed; Unreal Editor is not required.
+[Download Install.TashkentCity.exe](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/download/alpha-20261003-aut1/Install.TashkentCity.exe), open it, choose a folder and click **O‘rnatish** (Install). It downloads, verifies and extracts the game automatically. Click **O‘yinni ochish** (Open game) when finished. Interrupted downloads resume when you retry with the same folder.
 
-Start with Balanced graphics. Please report PC specifications, settings, FPS and reproduction steps in Issues. The package includes English instructions and a feedback template. This is an unfinished alpha, with no RTX 5080 benchmark or guaranteed performance on other PCs.
+The installer is 32 KB; the game download is 3.34 GB. Windows x64 and 11 GB free space during installation are needed. GitHub login, Unreal Editor and 7-Zip are not required. The alpha installer is unsigned. If the game reports missing VCRUNTIME/MSVCP, use the bundled `Install Runtime.cmd`.
+
+Start with Balanced graphics. Please report PC specifications, settings, FPS and reproduction steps in Issues. This is an unfinished alpha, with no RTX 5080 benchmark or guaranteed performance on other PCs.
