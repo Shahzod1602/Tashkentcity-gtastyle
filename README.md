@@ -4,74 +4,62 @@ Tashkent City, AUT universiteti, park va Humo Arena atrofida haydash va erkin yu
 
 ## O‘yinni yuklash
 
-### [⬇ Install.TashkentCity.exe — yangi versiyani yuklash](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/download/alpha-20261006-street-combat/Install.TashkentCity.exe)
+### [Install.TashkentCity.exe — yangi versiyani yuklash](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/download/alpha-20261011-city-feedback/Install.TashkentCity.exe)
 
-**Versiya: alpha-20261006-street-combat · 2026-10-06**
+**Versiya: alpha-20261011-city-feedback · 2026-10-11**
 
-1. Yuqoridagi **bitta faylni** yuklab, oching.
+1. Yuqoridagi **bitta faylni** yuklab oching.
 2. O‘yin uchun papka tanlang va **O‘rnatish** tugmasini bosing.
-3. Tugagach **O‘yinni ochish** tugmasini bosing. Ish stolida ham yorliq yaratiladi, agar belgisini olib tashlamasangiz.
+3. Tugagach **O‘yinni ochish** tugmasini bosing.
+4. Asosiy menyuda **Tashkent City / Lyra** ni tanlang — yangilangan shahar rejimi shu yerda.
 
 ![Tashkent City o‘rnatuvchisi](images/installer.png)
 
-O‘rnatuvchi **32 KB**; u **3,34 GB** o‘yin paketini yuklaydi, fayllarni tekshiradi va avtomatik chiqaradi. Internet uzilsa, o‘rnatuvchini o‘sha papka bilan yana ochib davom ettiring. Papka tanlovi eslab qolinadi. Muvaffaqiyatli o‘rnatishdan keyin yuklash arxivlari avtomatik tozalanadi.
+Installer **5.65 GB** paketni yuklaydi, tekshiradi va avtomatik chiqaradi. Internet uzilsa o‘sha papkani tanlab davom ettiring. Windows x64, internet va o‘rnatish davomida kamida **19 GB bo‘sh joy** kerak. O‘rnatilgan o‘yin taxminan **6.22 GB** joy egallaydi. GitHub hisobi, Unreal Editor va 7-Zip talab qilinmaydi. Installer raqamli imzo bilan imzolanmagan.
 
-**Windows 64-bit**, internet va o‘rnatish davomida kamida **11 GB bo‘sh joy** kerak. O‘yin o‘rnatilgach taxminan **3,7 GB** joy egallaydi. GitHub hisobi, Unreal Editor va 7-Zip talab qilinmaydi. Bu alpha o‘rnatuvchi raqamli imzo bilan imzolanmagan; Windows ogohlantirish ko‘rsatishi mumkin.
+`VCRUNTIME` yoki `MSVCP` yetishmasa, o‘yin papkasidagi **Install Runtime.cmd** ni oching. Avval **Muvozanatli / Balanced** grafikadan boshlang.
 
-O‘yin ochilmasa va `VCRUNTIME` yoki `MSVCP` yetishmasa, **O‘yin papkasi** orqali paketdagi `Install Runtime.cmd` ni oching. O‘yinda til va grafikani tanlang: **O‘ynash → Erkin yurish → mashina tanlash → boshlash**.
+Oldingi o‘rnatish o‘z papkasida qoladi. Progress va sozlamalar `%LOCALAPPDATA%\TashkentCityTest` ichida saqlanadi. Lyra shahar rejimi eski rejimlardan alohida profil ishlatadi. Yangi installer yaratgan yorliq yoki o‘yin papkasini oching.
 
-Oldingi o‘rnatish o‘z papkasida qoladi. Progress va sozlamalar avvalgi `%LOCALAPPDATA%\TashkentCityTest` katalogida saqlanadi. Yangi versiya bilan o‘ynash uchun yangi o‘rnatuvchi yaratgan o‘yin papkasini yoki yorliqni oching.
+## Bu versiyadagi yangiliklar
 
-## Yangi imkoniyatlar
+- Lyra asosidagi yurish, jang va qurol animatsiyalari; pistolet, avtomat, shotgun; qurolni yig‘ishtirish va personaj tanlash.
+- AUT yaqinidagi tekshirilgan yo‘l balandliklari va asfalt ustiga chiqib qolgan qoplamalar tuzatildi.
+- AUT zinapoya va kirish maydonchasi, maysa teksturasi, daraxt/butalar va to‘rtta parking joyi yaxshilandi.
+- Mashinadan tushish holati, xavfsiz chiqish, fokus yo‘qolgandagi gaz/rul va parkingda yengil gaz bilan yurish tuzatildi.
+- O‘q zaxirasi, bepul o‘q/bronya olish va tez bosib qo‘yib yuborishda otish tuzatildi.
+- O‘q tekkan ko‘cha chirog‘i o‘chadi; shikastlangan mashinada tutun va portlash effekti, mashina urgan bekat belgisida yiqilish bor.
 
-- Shaharda SCAR va PMX bilan otish, alohida o‘q zaxiralari, qayta o‘qlash, qurol tanlash va panaga kirish.
-- Sog‘liq va bronya, xavfdan qochadigan piyodalar, mashinalarga o‘q zarari, politsiya ta’qibi va qidiruvi, yengilish yoki ushlanishdan keyin qayta jonlanish.
-- Personaj tanlash: **Esc → Personaj**. Rul boshqaruvi yaxshilangan, drift paytida shina tutuni chiqadi.
-- Alohida jang maydoni, erkin yurish va poyga rejimlari saqlangan.
+**Lyra boshqaruvi:** WASD — yurish/haydash; E — to‘xtagan mashinaga kirish/chiqish; Space — sakrash/qo‘l tormozi; G — garaj; M — xarita; Esc — menyu. Piyoda H — qurolni olish/yig‘ishtirish; 1/2/3 — pistolet/avtomat/shotgun; o‘ng sichqoncha — nishon; chap sichqoncha — otish; R — qayta o‘qlash. Mashinada C — kamera; B — radio; N — keyingi trek; L — faralar. **Esc → Jang** ichidan qidiruvsiz holatda bepul o‘q va bronya olish mumkin.
 
-**Jang boshqaruvi:** E bilan mashinadan tushing; **Tab** ni ushlab qurol tanlang; o‘ng sichqoncha — nishon; chap sichqoncha — otish; **R** — qayta o‘qlash; **C** — piyoda turganda pana; **F** — yengilgandan keyin qayta jonlanish. **Esc → Jang** orqali maydonga kirish yoki qidiruvsiz vaqtda bepul o‘q/bronya olish mumkin.
+## Sinov va cheklovlar
 
-<details>
-<summary>Muqobil usul: ZIP qismlarini qo‘lda yuklash</summary>
+Yakuniy o‘yin fayli bo‘yicha **7 ta avtomatik sinov to‘plami o‘tdi**, **21 ta o‘yin rasmi** ko‘rib chiqildi. Toza paket menyusi tekshirildi. Installerning **24 ta tekshiruvi** o‘tdi, o‘rnatilgan **186 ta fayl** hajmi va SHA-256 bo‘yicha solishtirildi. Shaxsiy save’lar, developer loglari, debug fayllari va Unreal loyihasining manba kodi paketga qo‘shilmagan.
 
-1. [Release sahifasidan](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/tag/alpha-20261006-street-combat) quyidagi **5 faylni bitta papkaga** yuklang:
-   - `TashkentCity-alpha-20261006-street-combat.zip.001`
-   - `TashkentCity-alpha-20261006-street-combat.zip.002`
-   - `Join.Test.ZIP.cmd`
-   - `Join-Test-ZIP.ps1`
-   - `TEST_PARTS.json`
-2. `Join.Test.ZIP.cmd` ni oching. U qismlarni tekshiradi va ZIP faylini yig‘adi.
-3. ZIP ichidagi barcha fayllarni chiqaring va `Play Tashkent City.cmd` ni oching.
+RTX 3050 Laptop 4 GB, Ryzen 5 6600H, 16 GB RAM; 1280×720 Balanced DX11; bir xil 180 soniyalik kunduz/tun/salon marshruti:
 
-GitHub’ning avtomatik `Source code (zip/tar.gz)` fayllari o‘yin paketi emas. Qo‘lda yuklangan arxivlarni o‘zingiz tozalashingiz mumkin.
+| Ko‘rsatkich | Avval | Yangi |
+|---|---:|---:|
+| O‘rtacha FPS | 42,58 | 41,80 |
+| p95 kadr vaqti | 34,24 ms | 32,98 ms |
+| p99 kadr vaqti | 41,27 ms | 37,99 ms |
 
-</details>
+Bu bittadan solishtirma o‘lchov; boshqa PC uchun kafolat emas. Odam/transport limitlari kamaytirilmagan. **16,7 ms maqsadiga hali yetilmagan.** RTX 5080, toza PC’da runtime o‘rnatish va to‘liq poyga aylanasi bu release uchun qayta tekshirilmagan.
 
-## Tester uchun
+Bu tugallanmagan alpha. Shahar to‘liq 1:1 rekonstruksiya emas; ayrim binolar va mashina materiallari oddiy. Oltita feedback guruhi uchun aniq joy yoki izoh kerak, bitta HUD masalasi qisman hal qilingan. Mashinalarni navbatdagi vizual yaxshilash bosqichi bu release’ga kirmaydi.
 
-Avval **Muvozanatli / Balanced** grafikada sinang. 20–30 daqiqa davomida kunduz/tun, haydash, drift, piyodalar, faralar, svetoforlar, personaj tanlash, shahar jangi, politsiyadan qochish, poyga va saqlab qayta ochishni tekshiring.
+## Feedback
 
-Muammo topsangiz [Issues](https://github.com/Shahzod1602/Tashkentcity-gtastyle/issues) bo‘limida PC tarkibi, grafik sozlamalari, FPS, takrorlash qadamlari va rasm yoki qisqa videoni yuboring. `FEEDBACK_TEMPLATE.txt` paket ichida bor. Hech qanday fikr yoki log avtomatik yuborilmaydi.
+[Issues](https://github.com/Shahzod1602/Tashkentcity-gtastyle/issues) bo‘limiga PC tarkibi, grafik sozlamalari, **aniq xarita joyi**, mashina/personaj, takrorlash qadamlari va rasm yoki qisqa video yozing. `FEEDBACK_TEMPLATE.txt` paket ichida bor. Fikrlar va loglar avtomatik yuborilmaydi.
 
-Boshqaruv: **WASD** harakat/haydash; **E** interaksiya/mashinaga kirish; **Space** sakrash/qo‘l tormozi; **C** mashinada kamera, piyoda pana; **M** xarita; **G** garaj; **B** radio; **N** keyingi trek; **L** faralar; **Esc** pauza. Tugmalarni Sozlamalar → Boshqaruv’dan o‘zgartirish mumkin.
+## Qo‘lda yuklash
 
-Progress, sozlamalar va loglar `%LOCALAPPDATA%\TashkentCityTest` ostida saqlanadi. Repository’da Unreal loyihasining manba kodi joylanmagan.
+[Release sahifasidan](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/tag/alpha-20261011-city-feedback) barcha raqamlangan ZIP qismlari, **Join.Test.ZIP.cmd**, **Join-Test-ZIP.ps1** va **TEST_PARTS.json** ni bitta papkaga yuklang. Join.Test.ZIP.cmd ni oching, yig‘ilgan ZIP ni to‘liq chiqaring va **Play Tashkent City.cmd** ni oching. GitHub’ning avtomatik `Source code` arxivlari o‘yin paketi emas.
 
-## Joriy cheklovlar
-
-- Bu tugallanmagan **Development alpha**; shahar hali to‘liq 1:1 rekonstruksiya emas.
-- Vertolyot, SWAT, mashinadan otish va maxsus pana animatsiyalari hozircha yo‘q. Politsiya mavjud shahar odami modeli bilan ishlaydi.
-- Yakuniy o‘yin faylida **382 ta** gameplay/regressiya tekshiruvi o‘tgan, **8 ta** o‘yin tasviri ko‘z bilan tekshirilgan. O‘rnatuvchining **24 ta** tekshiruvi ham o‘tdi; o‘rnatilgan **107 ta** payload fayli asl paket bilan hajmi va SHA-256 bo‘yicha mos.
-- Yangi versiya uchun FPS/p95/p99 qayta o‘lchanmagan. Oldingi 3-oktabr alpha’da RTX 3050 Laptop 4 GB, Ryzen 5 6600H, 16 GB RAM, 1280×720 Balanced o‘lchovi taxminan **49 FPS**, p95 **28,5–28,8 ms** edi. Bu boshqa PC uchun kafolat yoki minimal talab emas; RTX 5080 hali sinovdan o‘tmagan.
-- Avtomatik poyga tekshiruvi to‘liq fizik aylanani qamramaydi. Toza PC’da runtime o‘rnatilishi ham tester tekshiruvi talab qiladi.
-- Asset manbalari va mavjud litsenziya qaydlari paketdagi `SourceNotices` papkasida. Bu repository uchinchi tomon assetlariga yangi litsenziya bermaydi.
+Asset manbalari va mavjud litsenziya qaydlari `SourceNotices` ichida. Bu repository uchinchi tomon assetlariga yangi litsenziya bermaydi.
 
 ## English quick start
 
-[Download Install.TashkentCity.exe](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/download/alpha-20261006-street-combat/Install.TashkentCity.exe), open it, choose a folder and click **O‘rnatish** (Install). It downloads, verifies and extracts the game automatically. Click **O‘yinni ochish** (Open game) when finished. Interrupted downloads resume when you retry with the same folder.
+[Download Install.TashkentCity.exe](https://github.com/Shahzod1602/Tashkentcity-gtastyle/releases/download/alpha-20261011-city-feedback/Install.TashkentCity.exe), choose a folder and click **O‘rnatish** (Install). Then click **O‘yinni ochish** (Open game) and select **Tashkent City / Lyra** in the main menu. Interrupted downloads resume in the same folder. The download is **5.65 GB**; allow **19 GB** free during installation. Windows x64 is required; Unreal Editor and a GitHub account are not required.
 
-The installer is 32 KB; the game download is 3.34 GB. Windows x64 and 11 GB free space during installation are needed. GitHub login, Unreal Editor and 7-Zip are not required. The alpha installer is unsigned. If the game reports missing VCRUNTIME/MSVCP, use the bundled `Install Runtime.cmd`.
-
-Start with Balanced graphics. Please report PC specifications, settings, FPS and reproduction steps in Issues. This is an unfinished alpha, with no RTX 5080 benchmark or guaranteed performance on other PCs.
-
-New: city gunplay, police pursuit, pedestrian reactions, cover, health/armor, character selection and drift smoke. Leave the car with E; hold Tab for weapons; right mouse aim, left mouse fire, R reload, C cover. Existing saves remain under `%LOCALAPPDATA%\TashkentCityTest`. No new FPS benchmark was run for this release.
+The new alpha includes Lyra city movement/weapons, AUT road/stairs/parking improvements, vehicle exit/input fixes, ammunition fixes, shootable streetlights and vehicle damage effects. Existing tester saves remain under `%LOCALAPPDATA%\TashkentCityTest`. Start with Balanced graphics and report issues with exact locations and reproduction steps. The performance table is one measured laptop comparison, not a performance guarantee.
